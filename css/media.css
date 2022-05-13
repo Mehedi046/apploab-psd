@@ -1,0 +1,349 @@
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header part start*/
+.header{
+  padding: 5px 0;
+}
+    .btn-bar, .close{
+      display: block;
+    }
+    .close{
+      position: absolute;
+      right: 10px;
+      top: -6px;
+    }
+    .menu{
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 320px;
+      background: #ffffff;
+      transition: 1s all ease-in-out;
+      display: none;
+    }
+    .btn-default{
+      margin-top: 30px;
+      margin-left: 0;
+    }
+     /*header part end*/
+    /*hero part start*/
+    .caption{
+      padding-right: 75px;
+    }
+    .caption p{
+      font-size: 14px;
+    }
+
+    .banner_img{
+      text-align: center !important;
+    }
+  
+.caption {
+    margin-top: 1px;
+    padding: 20px 0px;
+    text-align: center;
+}
+  .caption h1{
+    font-size: 32px;
+  }
+  .faq p{
+    font-size: 14px;
+  }
+  .banner {
+    padding: 30px 0;
+
+}
+.first, .second {
+    padding: 20px 0;
+}
+  /*hero part end*/
+  /*service part start*/
+  .right_text{
+      padding: 35px;
+    }
+    .left_text{
+      width: 100%;
+    }
+    .left_text h1{
+      font-size: 28px;
+      line-height: 38px;
+    }
+    .f_title {
+    padding: 0 24px !important;
+    margin-top: 50px;
+    font-size: 30px;
+}
+  /*service part end*/
+  .choose{
+    padding: 30px 0;
+  }
+  .design_left{
+    padding: 0 !important;
+  }
+  .f_title {
+    margin-top: 50px;
+    font-size: 30px;
+}
+/*ultimate part start*/
+.ultimate{
+  padding: 0px 0 !important;
+}
+/*ultimate part end*/
+/*pricing part start*/
+.price-x-pad {
+  padding: 0px 0px;
+}
+/*pricing part end*/
+/*testimonial part start*/
+.testimonial-text {
+  padding-right: 0px;
+}
+.c-prev {
+  right: 62px;
+}
+.c-prev, .c-next {
+  bottom: -25px;
+    width: 15%; 
+}
+/*testimonial part end*/
+/*accordion part start*/
+.accordion-header h4{
+  font-size: 14px !important;
+}
+.f_title {
+    margin-top: 50px;
+    font-size: 29px;
+}
+.accordion-faq {
+    padding: 20px 0 !important;
+}
+/*accordion part end*/
+.app-head h1 {
+    font-size: 36px;
+}
+.footer{
+  padding: 30px 0;
+}
+.footer_social{
+  margin: 10px 0;
+}
+.footer_logo{
+  margin: 20px 0;
+}
+.footer_socialul ul li a{
+  font-size: 25px;
+}
+.footer_menu ul li a {
+  margin: 0 12px; 
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*header part start*/
+    .btn-bar, .close{
+      display: block;
+    }
+    .close{
+      position: absolute;
+      right: 10px;
+      top: -6px;
+    }
+    .menu{
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 320px;
+      background: #ffffff;
+      transition: 1s all ease-in-out;
+      display: none;
+    }
+    .btn-default{
+      margin-top: 30px;
+      margin-left: 0;
+    }
+     /*header part end*/
+    /*hero part start*/
+    .caption{
+      padding-right: 75px;
+    }
+    .caption p{
+      font-size: 14px;
+    }
+
+    .banner_img{
+      text-align: center !important;
+    }
+  
+  .caption{
+    padding: 30px 100px;
+    text-align: center;
+  }
+  .caption h1{
+    font-size: 36px;
+  }
+  .faq p{
+    font-size: 14px;
+  }
+  /*hero part end*/
+/*service part start*/
+  .first, .second {
+    padding: 40px 0;
+}
+  .right_text{
+      padding: 35px;
+    }
+    .left_text{
+      width: 100%;
+    }
+/*service part end*/
+.design_left{
+  width: 100%;
+    padding: 0 !important;
+  }
+  /*pricing media css start*/
+  .price-x-pad{
+    padding: 30px 0;
+  }
+  .pricing-card .card{
+    margin-top: 30px;
+  }
+  /*pricing media css end*/
+ /*accordion part start*/
+ .accordion-faq {
+  padding: 50px 0;
+}
+.accordion-header h4 {
+  font-size: 14px !important;
+}
+.faq-button {
+  padding: 18px 15px !important;
+  
+}
+.app-head{
+    margin-bottom: 40px;
+}
+.app-head h1 {
+  font-size: 36px;
+}
+
+ /*accordion part end*/
+ /*app head start*/
+ .app-head{
+    margin-bottom: 40px;
+}
+.app-head h1 {
+  font-size: 36px;
+}
+.footer{
+  padding: 30px 0;
+}
+.footer_menu ul li a {
+  margin: 0 12px; 
+}
+ 
+ /*app head end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:991.98px) {
+    /*header part start*/
+    .btn-bar, .close{
+      display: block;
+    }
+    .close{
+      position: absolute;
+      right: 10px;
+      top: -6px;
+    }
+    .menu{
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 320px;
+      background: #ffffff;
+      transition: 1s all ease-in-out;
+      display: none;
+    }
+    .btn-default{
+      margin-top: 30px;
+      margin-left: 0;
+    }
+    .caption{
+      padding-right: 75px;
+    }
+    .caption p{
+      font-size: 14px;
+    }
+    .caption h1{
+        font-size: 36px;
+    }
+
+    /*header part end*/
+    /*service part start*/
+    .right_text{
+      padding: 35px;
+    }
+    .left_text{
+      width: 100%;
+    }
+    /*service part end*/
+    .design_left{
+    padding: 0 !important;
+    
+  }
+  /*pricing part start*/
+  .price-x-pad{
+    padding: 30px 0;
+  }
+  /*pricing part end*/
+
+
+ }
+
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*banner part start*/
+  .caption h1 {
+    font-size: 41px;
+}
+  .caption p {
+    line-height: 24px;
+    font-size: 15px;
+}
+  /*banner part end*/
+
+  .f_title {
+    font-size: 39px;
+}
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+ }
